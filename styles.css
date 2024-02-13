@@ -1,0 +1,630 @@
+
+/* SOURCECODE by Aqib Munir */
+/* ASSIGNMENT NO 2 */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+/* ---------------Designing Header----------------- */
+
+header{
+    height: 25vh;
+    
+    /* background: pink; */
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    width: 98%;
+
+    margin: 0px auto;
+
+}
+
+header .phone{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header ul {
+    list-style-type: none;
+	display: flex;
+	gap: 30px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    /* translate: 433px 28px; */
+    position: absolute;
+    right: 3%;
+    top: 63%;
+}
+
+/* header h2{
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', sans-serif;  
+    border: 4px dotted #3d2514;
+    font-size: 20px;
+    padding: 3px 40px;
+} */
+
+header ul li a{
+    text-decoration: none;
+    color:  #3d2514;
+    cursor: pointer;
+}
+
+header .logo{
+    position: absolute;
+    left: 2%;
+}
+
+header .phone{
+    position: absolute;
+    right: 3%;
+    top: 33%;
+    color: #3d2514;
+}
+
+header .phone {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #3d2514;
+}
+
+header .bike{
+    position: absolute;
+    right: 310px;
+    top: 27%;
+}
+
+
+
+/* ---------------------------Designing Hero Section------------------------ */
+
+.hero-section{
+    height: 100vh;
+    background: url(images/Rectangle.png);
+    position: relative;
+}
+
+/* --------Burger------------ */
+
+.hero-section .burger{
+    height: 350px;
+    position: absolute;
+    bottom: 50px;
+    right: 135px;
+}
+
+.hero-section .glow{
+    height: 400px;
+    position: absolute;
+    bottom: 70px;
+    right: 145px;
+}
+
+.hero-section .burgershadow{
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+/* -------------text area------------- */
+
+.herosectioncontent{
+    position: absolute;
+    top: 190px;
+    left: 70px;
+}
+
+.herosectioncontent .herosectionbox{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    border: 4px dotted #3d2514;
+    padding: 5px 25px;
+    color: #3d2514;
+}
+
+.herosectioncontent h1{
+    letter-spacing: 3px;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 100px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    color: #3d2514;
+
+    transition: all 300ms;
+}
+
+.herosectioncontent :hover{
+    color: rgb(134, 4, 4);
+}
+
+.herosectioncontent h3{
+    letter-spacing: 3px;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    color: #3d2514;
+}
+
+/* ------------------------section2 --------------------- */
+
+.section2{
+    margin-top: 20px;
+    height: auto;
+    /* background: red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2burgers{
+    position: relative;
+    /* bottom: 200px; */
+    height: 450px;
+    width: 10%;
+    /* background: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section2-largeburger{
+    display: flex;
+}
+
+.section2-largeburger p{
+    position: absolute;
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 90%;
+    font-size: 40px;
+    color: white;
+}
+
+.section2-twoburgers1 p{
+    position: absolute;
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 90%;
+    font-size: 40px;
+    color: white;
+    width: 500px;
+}
+
+.section2-twoburgers2 p{
+    position: absolute;
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 90%;
+    font-size: 40px;
+    color: white;
+    width: 500px;
+}
+
+.section2content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2content .yellowbox{
+    margin-top: 20px;
+    background: #ffc045;
+    color: #3d2514;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.section2content h1{
+    padding-top: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 50px;
+    color: #3d2514;
+    transition: all 300ms;
+}
+
+.section2content h1:hover{
+    color:red;
+}
+
+.section2content-para1 {
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #3d2514;
+    width: 90%;
+}
+
+/* ----------------------------section3-------------------------- */
+
+.section3{
+    /* margin-top: 40px; */
+    height: 90vh;
+    /* background: #ffc045; */
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+}
+
+.section3 .card3 img{
+    height: 47%;
+
+}
+
+.section3 .card3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 0px;
+    
+}
+
+.section3 .card3 .section3-para1{
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #3d2514;
+
+ }
+
+ .section3 .card3 h3{
+    margin-top: 15px;
+    color: #3d2514;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+
+ }
+
+ .section3 .card3 .section3-btn{
+    margin-top: 15px;
+    color: white;
+    background: rgb(255, 86, 14);
+    border: none;
+    outline: none;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+ }
+
+ /* ---------------------------section4------------------------------- */
+ .section4{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .section4-rectangle{
+    position: relative;
+    width: 92%;
+    height: 70%;
+
+    /* border: 1px solid pink; */
+    box-shadow: 8px 8px 15px #939393;
+    border-radius: 10px;
+    
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+ }
+
+ .section4-content{
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column  ;
+ }
+
+ .section4-content {
+    color: #3d2514;
+    padding-top: 10px;
+    width: 90%;
+ }
+
+ .section4-content h1{
+    text-transform: uppercase;
+    /* padding-top: 10px; */
+    letter-spacing: 2px;
+    font-family: 'Alfa Slab One', serif;
+    /* font-size: 26px; */
+    transition: all 300ms;
+ }
+ .section4-content h1:hover{
+    color: red;
+ }
+
+
+ .section4-content .section4-discover{
+    padding-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+
+ }
+
+ /* ----section4 paragraph----- */
+
+ .section4-content .section4-para{
+    padding-top: 5px;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+/* section 4 img--------------- */
+ 
+.section4img{
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    height: 370px;
+}
+
+/* three circles-------------------- */
+
+.section4circles{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    gap: 8px;
+}
+
+.section4circle1{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background: #ffc045;
+}
+
+.section4circle{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background: rgb(153, 153, 153);
+}
+
+/*---------------------section05------------------------------------------ */
+
+.section5{
+    position: relative;
+
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+    color: #3d2514;
+
+    flex-direction: column;
+}
+
+.section5 p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    transition: all 300ms;
+
+}
+
+.section5 h1{
+    text-transform: uppercase;
+    /* padding-top: 10px; */
+    letter-spacing: 2px;
+    font-family: 'Alfa Slab One', serif;
+    /* font-size: 26px; */
+    transition: all 300ms;
+}
+
+.section5 h1:hover, .section5 p:hover{
+    color: red;
+}
+
+/* --------------------section5 Table------------------------ */
+
+.section5{
+    height: 100vh;
+}
+
+.section5 .section5table{
+    margin-top: 20px;
+
+    height: 40%;
+    width: 50%;
+    /* background: yellow; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.section5table input{
+    height: 50px;
+    width:  100%;
+    border: none;
+    /* background: transparent; */
+    border-radius: 3px;
+    border: 1px solid rgb(177, 177, 177);
+    padding: 0px 0px 0px 10px;
+}
+
+.section5-div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: column;
+
+    gap: 30px;
+
+    height: 220px;
+    width: 250px;
+
+    /* background: red; */
+
+}
+
+.section5-div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: column;
+
+    gap: 30px;
+
+    height: 220px;
+    width: 250px;
+
+    /* background: red; */
+
+}
+
+
+.section5-btn{
+    color: white;
+    background: red;
+    outline: none;
+    font-family: 'Alfa Slab One', serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+ }
+
+ /* ---------------------section 5 images---------------- */
+
+ .s5-bottle{
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    
+ }
+
+ .s5-burgertopview{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    translate: -80px -100px;
+
+ }
+
+ .s5-platetopview{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    /* translate: 80px 100px; */
+ }
+
+
+
+ /* ------------------------footer-------------------------------------- */
+
+.footer{
+    height: 90vh;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.footer-rectangle{
+    width: 90%;
+    height: 90%;
+    /* background: seagreen; */
+    background-image: url(images/footerbackground.png);
+    position: absolute;
+}
+
+.footer-rectangle .footerlogo{
+    height: 70px;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+
+.footer-rectangle .footerpara{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 33%;
+    left: 4%;
+    width: 40%;
+}
+
+.social{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.companyreserved{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.emailandadress{
+    font-family: 'Bebas Neue', sans-serif;
+
+    position: absolute;
+    top: 30%;
+    right: 50px;
+
+    display: flex;
+    flex-direction: column; 
+    gap: 17px;
+}
+
+.email{
+    display: flex;
+    gap: 8px;
+}
+
+.address{
+    display: flex;
+    gap: 8px;
+}
