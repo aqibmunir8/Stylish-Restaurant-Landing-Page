@@ -22,3 +22,10 @@ This project is a modern, responsive landing page designed specifically for a re
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/aqibmunir8/stylish-restaurant-landing-page.git
+
+## Contact
+For any inquiries or support, please reach out via:
+
+Email: aqibmunir218@gmail.com
+GitHub: aqibmunir8
+
